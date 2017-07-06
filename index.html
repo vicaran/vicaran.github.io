@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Andrea Vicari</title>
+    <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="bgimg-1">
+        <div class="caption">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div id="large-header" class="large-header">
+                    <canvas id="demo-canvas"></canvas>
+                    <img class="img-circle" src="img/profile.jpg">
+                    <h1 class="main-title">Andrea <span class="thin">Vicari</span></h1>
+                    <br>
+                    <h3 class="sub-title">Computer Scientist</h3>
+                    <h3 class="sub-sub-title">Student</h3>
+                    <ul id="socialConnectors">
+                        <li><a href="mailto:andreavicari95@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/vicaran/" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true" id="middleLeft"></i></a></li>
+                        <li><a href="https://twitter.com/vicaran_" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true" id="middleRight"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/andrea-vicari-70230594/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-me-content">
+        <h3 style="text-align:center;">About Me</h3>
+        <p>
+            I am Andrea Vicari, I was born on March 10th 1995 in Enna, which is a small town in the middle of the Sicily, in the Southern part of Italy. I have been living there for 19 years.
+        </p>
+        <p>
+            After having attended the Liceo Classico in Enna, I decided to move to Lugano in order to join the faculty of informatics at USI.
+            The Liceo Classico is school with an emphasy on humanities, so I am not used to scientific subjects but I am really motivated in reaching my aims and do all my best.
+        </p>
+        <p>
+            I have been interested in Informatics since 2004, when my parents first bought me a Personal Computer. I used to spent my days trying to figure out how this incredible machine worked and maybe, some day, be able to create programs all by myself. 
+            In my family I am regarded as the one who can do everything with a keyboard and a mouse. I think that they exagerate with their considerations, but I wish that other people, one day, would say the same about me.
+        </p>
+        <p>
+            Finally, after more or less 10 years, I had the possibility to discover this world deeper than before. I completed my studies for achieving the Bachelor degree in June 2017 and I am enrolled to the master program offered by USI on "Software &amp; Data Engineering".
+        </p>
+    </div>
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border
+" style="font-size:25px;color: #f7f7f7;">"Think big. Life’s too short to think small."</span>
+            <br>
+        </div>
+    </div>
+    </div>
+    <div style="position:relative;">
+        <div class="skills-table">
+            <h3 style="text-align:center; color: white">Skills</h3>
+            <div class="skills">
+                <ul class="lines">
+                    <li class="line l--0" style="visibility: hidden;">
+                        <!-- <span class="line__label title" style="visibility: visible;">Skill level:</span> -->
+                    </li>
+                    <li class="line l--25">
+                        <!-- <span class="line__label">The basics</span> -->
+                    </li>
+                    <li class="line l--50">
+                        <!-- <span class="line__label">Advanced</span> -->
+                    </li>
+                    <li class="line l--75">
+                        <!-- <span class="line__label">Seasoned</span> -->
+                    </li>
+                    <li class="line l--100">
+                        <!-- <span class="line__label">Expert</span> -->
+                    </li>
+                </ul>
+                <div class="charts">
+                    <div class="chart chart--prod">
+                        <span class="chart__title">Spoken Languages</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="100">
+                                <span class="chart__label">Italian</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">English</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--dev">
+                        <span class="chart__title">Programming Languages</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="95">
+                                <span class="chart__label">Python</span>
+                            </li>
+                            <li class="chart__bar" data-skill="95">
+                                <span class="chart__label">Java</span>
+                            </li>
+                            <li class="chart__bar" data-skill="55">
+                                <span class="chart__label">C</span>
+                            </li>
+                            <li class="chart__bar" data-skill="65">
+                                <span class="chart__label">PHP</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">SQL</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">MATLAB</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">Haskell</span>
+                            </li>
+                            <li class="chart__bar" data-skill="40">
+                                <span class="chart__label">Scala</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--web">
+                        <span class="chart__title">Web Technologies</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">HTML (5)</span>
+                            </li>
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">CSS (3)</span>
+                            </li>
+                            <li class="chart__bar" data-skill="85">
+                                <span class="chart__label">JavaScript</span>
+                            </li>
+                            <li class="chart__bar" data-skill="80">
+                                <span class="chart__label">JQuery</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Markup Languages</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="85">
+                                <span class="chart__label">LaTex</span>
+                            </li>
+                            <li class="chart__bar" data-skill="50">
+                                <span class="chart__label">MarkDown</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Version Control</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="80">
+                                <span class="chart__label">Git (GitHub and GitLab)</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">Gitflow</span>
+                            </li>
+                            <li class="chart__bar" data-skill="60">
+                                <span class="chart__label">SVN</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Frameworks</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="80">
+                                <span class="chart__label">Spring Boot</span>
+                            </li>
+                            <li class="chart__bar" data-skill="95">
+                                <span class="chart__label">Cesium.js</span>
+                            </li>
+                            <li class="chart__bar" data-skill="60">
+                                <span class="chart__label">Node.js</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Operating Systems</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="95">
+                                <span class="chart__label">Mac OS X</span>
+                            </li>
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">Windows</span>
+                            </li>
+                            <li class="chart__bar" data-skill="80">
+                                <span class="chart__label">Android</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">iOS</span>
+                            </li>
+                            <li class="chart__bar" data-skill="60">
+                                <span class="chart__label">Ubuntu</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">IDEs</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">JetBrains IntelliJ IDEA</span>
+                            </li>
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">JetBrains PyCharm</span>
+                            </li>
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">JetBrains CLion</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Databases</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="90">
+                                <span class="chart__label">MySQL</span>
+                            </li>
+                            <li class="chart__bar" data-skill="70">
+                                <span class="chart__label">MongoDB</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Office Automation</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="95">
+                                <span class="chart__label">Microsoft Office</span>
+                            </li>
+                            <li class="chart__bar" data-skill="80">
+                                <span class="chart__label">OpenOffice</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart--mark">
+                        <span class="chart__title">Photo &amp; Video Editing</span>
+                        <ul class="chart--horiz">
+                            <li class="chart__bar" data-skill="80">
+                                <span class="chart__label">Adobe Photoshop CC 2017</span>
+                            </li>
+                            <li class="chart__bar" data-skill="75">
+                                <span class="chart__label">Sony Vegas Pro 12</span>
+                            </li>
+                            <li class="chart__bar" data-skill="75">
+                                <span class="chart__label">Final Cut Pro</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bgimg-3">
+            <div class="caption" style="top: 35%;">
+                <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+                <h3 style="text-align:center; color: white">FIND MY RESUME HERE</h3>
+                <a href="documents/resume_cv.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-3x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div style="position:relative;">
+            <div style="color:#ddd;background-color:#282E34;text-align:center;padding:1px 0 1px 10px;text-align: justify;">
+                <p>Copyright © 2017 Andrea Vicari. All Rights Reserved</p>
+            </div>
+        </div>
+</body>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/demo-1.js"></script>
+
+</html>

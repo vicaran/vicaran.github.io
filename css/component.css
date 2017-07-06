@@ -1,0 +1,108 @@
+/* Header */
+
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.large-header {
+    background-image: url('../img/demo-1-bg.jpg');
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.sub-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.sub-sub-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+    font-weight: 200;
+}
+
+.skills-table {
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 1px 60px 0px 60px;
+    text-align: justify;
+}
+
+.about-me-content{
+       color: #777;
+       background-color:white;
+       text-align:center;
+       padding:50px 80px;
+       text-align: justify; 
+    }
+
+@media only screen and (max-width: 768px) {
+    .main-title {
+        font-size: 3em;
+    }
+    .sub-title {
+        top: 62%;
+        font-size: 1em;
+    }
+    .sub-sub-title {
+        top: 68%;
+        font-size: 1em;
+    }
+    .caption span.border {
+        letter-spacing: 5px;
+    }
+    .skills-table {
+        padding: 1px 10px 0px 10px;
+        color: #ddd;
+        background-color: #282E34;
+        text-align: justify;
+    }
+    .img-circle {
+        width: 35%;
+    }
+
+    .about-me-content{
+       padding:50px 30px;
+    }
+    
+}
